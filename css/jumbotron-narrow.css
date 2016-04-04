@@ -82,6 +82,7 @@ body {
 
 }
 
+
 .referidos-contenedor a{
   color: #2b2c2b;
   text-decoration: none;
@@ -92,8 +93,12 @@ body {
   font-weight: bold;
   font-size: 16px;
 }
+.referidos-contenedor .referidos-contenedor-padre{
+  border-bottom: 0px;
+}
 .referidos-contenedor ul{
   border-left: 1px dotted #00BFA5;
+  border-bottom: 1px solid lightgray;
 }
 .referidos-contenedor ul:first-child{
   border-left: 0px;
@@ -107,7 +112,11 @@ body {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 10px;
+  padding-right: 10px;
   border-bottom: 1px solid lightgray;
+}
+.referidos-contenedor .referidos-nodo:last-child{
+  border-bottom: 0px;
 }
 .referidos-contenedor .referidos-nodo:hover{
     background:#ECEFF1;
@@ -118,6 +127,8 @@ body {
 }
 .referidos-contenedor .referidos-nodo-badge{
   background: #00BFA5;
+  position: relative;
+  top: 12px;
 }
 .referidos-nodo-ver span{
   color: #00BFA5;
