@@ -45,7 +45,7 @@
             <li role="presentation"><a href="#">Contactanos</a></li>
           </ul>
         </nav>
-        <h3 class="text-muted">Referencias</h3>
+        <h3 class="text-muted">Referidos</h3>
       </div>
 
       <div class="">
@@ -53,80 +53,75 @@
       </div>
 
       <div class="row marketing">
-        <div class="col-lg-12 referidos">
-          <form class="form-inline">
-            <div class="form-group">
-              <label class="label-codigo">Codigo</label><br>
-              <input type="text" class="form-control" id="exampleInputName2" placeholder="Codigo">
-              <button type="submit" class="btn btn-success">Buscar</button>
+        <div class="col-lg-12 referidos-tree">
+          <p class="lead">Referidos</p>
 
-            </div>
-          </form>
-          <div class="father">
-            <ul class="referidos-content nav nav-pills">
-              <div class="row">
-                <li class="referidos-list">
-                    <a><img class="img-circle" src="img/boss.png" alt="Generic placeholder image" width="80" height="80"></a>
-                    <h2>5000</h2>
-                    <p>
-                      CELINA URBANIZACIONES
-                    </p>
-                </li>
-                <li>
-                  <div class="datos">
-                    <strong>Numero de patrociandos: </strong>20
-                  </div>
-                </li>
-              </div>
+          <div class="referidos-contenedor">
+            <ul>
+              <li>
+                <div class="referidos-nodo">
+                  <img src="img/user.png" alt="nodo" width="25px" height="25px" />
+                  <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Celina Urbanizaciones</a>
+                  <a class="referidos-nodo-ver" href="#" title="Ver Perfil"><span class="fa fa-eye"></span></a>
+                  <span class="pull-right badge referidos-nodo-badge" title="Nro de hijos">42</span>
+                  <br><small>Codigo: 5000, Nro de cuotas: 25</small>
+                </div>
+                <ul class="collapse" id="collapseOne">
+                  <li>
+                    <div class="referidos-nodo">
+                      <img src="img/user.png" alt="nodo" width="25px" height="25px" />
+                      <a data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Claudio Vargas Saavedra</a>
+                      <a class="referidos-nodo-ver" href="#" title="Ver Perfil"><span class="fa fa-eye"></span></a>
+                      <span class="pull-right badge referidos-nodo-badge" title="Nro de hijos">32</span>
+                      <br><small>Codigo: 2500, Nro de cuotas: 225</small>
+                    </div>
+                    <ul class="collapse" id="collapseTwo">
+                      <li>
+                        <div class="referidos-nodo">
+                          <img src="img/user.png" alt="nodo" width="25px" height="25px" />
+                          <a data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Carolina Perez</a>
+                          <a class="referidos-nodo-ver" href="#" title="Ver Perfil"><span class="fa fa-eye"></span></a>
+                          <span class="pull-right badge referidos-nodo-badge" title="Nro de hijos">1</span>
+                          <br><small>Codigo: 3000, Nro de cuotas: 125</small>
+                        </div>
+                        <ul  class="collapse" id="collapseThree">
+                          <li>
+                            <div class="referidos-nodo">
+                              <img src="img/user.png" alt="nodo" width="25px" height="25px" />
+                              <a href="#">Daniel Perez</a>
+                              <a class="referidos-nodo-ver" href="#" title="Ver Perfil"><span class="fa fa-eye"></span></a>
+                              <span class="pull-right badge referidos-nodo-badge" title="Nro de hijos">1</span>
+                              <br><small>Codigo: 3000, Nro de cuotas: 125</small>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <div class="referidos-nodo">
+                          <img src="img/user.png" alt="nodo" width="25px" height="25px" />
+                          <a href="#">Gledis Paz</a>
+                          <a class="referidos-nodo-ver" href="#" title="Ver Perfil"><span class="fa fa-eye"></span></a>
+                          <span class="pull-right badge referidos-nodo-badge" title="Nro de hijos">1</span>
+                          <br><small>Codigo: 3000, Nro de cuotas: 125</small>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="referidos-nodo">
+                      <img src="img/user.png" alt="nodo" width="25px" height="25px" />
+                      <a href="#">Daniela Marquez</a>
+                      <a class="referidos-nodo-ver" href="#" title="Ver Perfil"><span class="fa fa-eye"></span></a>
+                      <span class="pull-right badge referidos-nodo-badge" title="Nro de hijos">31</span>
+                      <br><small>Codigo: 4550, Nro de cuotas: 254</small>
+                    </div>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
 
-          <ul class="referidos-content hijos">
-            <div class="row">
-              <li class="referidos-list col-md-3 col-xs-12">
-                  <a href="#"><img class="img-circle" src="img/user.png" alt="Generic placeholder image" width="80" height="80"><span title="Numero de patrocinados" class="badge badge-notify">3</span></a>
-                  <h2>200</h2>
-                  <div class="hijo-nombre">
-                    <p>
-                      Claudio Vargas Saavedra
-                    </p>
-                  </div>
 
-                  <a href="#" class="btn btn-success">Ver perfil</a>
-              </li>
-              <li class="referidos-list col-md-3">
-                  <a href="#"><img class="img-circle" src="img/user.png" alt="Generic placeholder image" width="80" height="80"><span title="Numero de patrocinados" class="badge badge-notify">15</span></a>
-                  <h2>500</h2>
-                  <div class="hijo-nombre">
-                    <p>
-                      MAXIMILIANO LUIS FERNANDO MORENO SANTANA
-                    </p>
-                  </div>
-
-                  <a href="#" class="btn btn-success">Ver perfil</a>
-              </li>
-              <li class="referidos-list col-md-3">
-                  <a href="#"><img class="img-circle" src="img/user.png" alt="Generic placeholder image" width="80" height="80"><span title="Numero de patrocinados" class="badge badge-notify">7</span></a>
-                  <h2>8000</h2>
-                  <div class="hijo-nombre">
-                    <p>
-                      MAXIMILIANO LUIS FERNANDO MORENO SANTANA
-                    </p>
-                  </div>
-                  <a href="#" class="btn btn-success">Ver perfil</a>
-              </li>
-              <li class="referidos-list col-md-3">
-                  <a href="#"><img class="img-circle" src="img/user.png" alt="Generic placeholder image" width="80" height="80"><span title="Numero de patrocinados" class="badge badge-notify">7</span></a>
-                  <h2>8000</h2>
-                  <div class="hijo-nombre">
-                    <p>
-                      Daniela Lopez Ojos
-                    </p>
-                  </div>
-                  <a href="#" class="btn btn-success">Ver perfil</a>
-              </li>
-            </div>
-          </ul>
         </div>
       </div>
 
